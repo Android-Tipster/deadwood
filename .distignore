@@ -1,0 +1,9 @@
+# Excluded from the distributed plugin zip.
+.git
+.gitignore
+.distignore
+tests
+tools
+run-tests.sh
+README.md
+dw_sites.tsv

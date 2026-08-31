@@ -1,0 +1,185 @@
+/* Deadwood admin report. */
+
+.deadwood-lede {
+	max-width: 46em;
+	font-size: 14px;
+	color: #50575e;
+}
+
+.deadwood-actions {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 16px 0 8px;
+}
+
+.deadwood-actions form {
+	margin: 0;
+}
+
+.deadwood-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 12px;
+	margin: 20px 0 8px;
+}
+
+.deadwood-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left-width: 4px;
+	border-radius: 4px;
+	padding: 14px 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.deadwood-card-count {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.deadwood-card-label {
+	font-size: 12px;
+	color: #50575e;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.deadwood-tone-critical {
+	border-left-color: #b32d2e;
+}
+
+.deadwood-tone-high {
+	border-left-color: #d63638;
+}
+
+.deadwood-tone-medium {
+	border-left-color: #dba617;
+}
+
+.deadwood-tone-good {
+	border-left-color: #00a32a;
+}
+
+.deadwood-tone-neutral {
+	border-left-color: #8c8f94;
+}
+
+.deadwood-tone-unknown {
+	border-left-color: #3582c4;
+}
+
+.deadwood-meta {
+	color: #646970;
+	font-size: 13px;
+}
+
+.deadwood-empty {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 16px 0;
+}
+
+.deadwood-table {
+	margin-top: 16px;
+}
+
+.deadwood-table th {
+	font-weight: 600;
+}
+
+.deadwood-name .deadwood-sub {
+	display: block;
+	color: #646970;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.deadwood-pill {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	background: #8c8f94;
+	white-space: nowrap;
+}
+
+.deadwood-pill.deadwood-tone-critical {
+	background: #b32d2e;
+}
+
+.deadwood-pill.deadwood-tone-high {
+	background: #d63638;
+}
+
+.deadwood-pill.deadwood-tone-medium {
+	background: #996800;
+}
+
+.deadwood-pill.deadwood-tone-good {
+	background: #007017;
+}
+
+.deadwood-pill.deadwood-tone-neutral {
+	background: #8c8f94;
+}
+
+.deadwood-pill.deadwood-tone-unknown {
+	background: #2271b1;
+}
+
+.deadwood-score {
+	font-variant-numeric: tabular-nums;
+	font-weight: 600;
+	width: 60px;
+}
+
+.deadwood-dash {
+	color: #a7aaad;
+	font-weight: 400;
+}
+
+.deadwood-findings {
+	max-width: 640px;
+}
+
+.deadwood-factor {
+	margin-bottom: 6px;
+}
+
+.deadwood-factor summary {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.deadwood-factor p {
+	margin: 6px 0 0 16px;
+	color: #50575e;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.deadwood-unknown-note {
+	margin: 0 0 6px;
+	color: #50575e;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.deadwood-link {
+	margin: 8px 0 0;
+	font-size: 13px;
+}
+
+@media screen and (max-width: 782px) {
+	.deadwood-findings {
+		max-width: none;
+	}
+}
